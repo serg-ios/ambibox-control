@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C48a" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Background" representedClassName=".Background" syncable="YES">
+        <attribute name="leds" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="value" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DynBackground" representedClassName=".DynBackground" syncable="YES">
+        <attribute name="backgrounds" optional="YES" attributeType="Transformable" customClassName="NSArray" syncable="YES"/>
+        <attribute name="leds" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Background" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="DynBackground" positionX="-243.94140625" positionY="-20.33203125" width="128" height="90"/>
+    </elements>
+</model>
